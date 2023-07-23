@@ -17,7 +17,7 @@ KapambweTitanic <- Titanic
 
 #This code chunk allows me to see the top 2 rows of my data
 #TASK: Write the code that returns the top rows
-
+test tAK 2 COMMIT
 
 #This code chunk shows me the internal structure 
 #Task: Write the code that shows the number of rows, columns, column names, class of columns   
