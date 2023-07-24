@@ -23,6 +23,7 @@ head(KapambweTitanic, 2)
 #Task: Write the code that shows the number of rows, columns, column names, class of columns   
 
 num_rows <- nrow(KapambweTitanic)
+
 num_cols <- ncol(KapambweTitanic)
 
 column_names <- colnames(KapambweTitanic)
@@ -33,6 +34,7 @@ column_classes <- sapply(KapambweTitanic, class)
 #Such as Min, Max, Mean. Quartiles...
 #Task: Write the code that gives summary stats
 
+summarystats <- summary(KapambweTitanic)
 
 #This allows me to save one column as its own object ('values' in the Environment)
 #Task: Write the code to create an object for just the Sex column 
