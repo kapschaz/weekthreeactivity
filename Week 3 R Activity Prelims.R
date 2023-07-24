@@ -12,7 +12,6 @@ Titanic
 #TASK: Save the Titanic data as a dataframe with a new name that includes your first name
 #for example I would name my data AnnaTitanic
 
-#data("Titanic")
 KapambweTitanic <- Titanic
 
 #This code chunk allows me to see the top 2 rows of my data
@@ -23,6 +22,12 @@ head(KapambweTitanic, 2)
 #This code chunk shows me the internal structure 
 #Task: Write the code that shows the number of rows, columns, column names, class of columns   
 
+num_rows <- nrow(KapambweTitanic)
+num_cols <- ncol(KapambweTitanic)
+
+column_names <- colnames(KapambweTitanic)
+
+column_classes <- sapply(KapambweTitanic, class)
 
 #This code chunk shows me some basic summary stats
 #Such as Min, Max, Mean. Quartiles...
